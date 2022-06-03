@@ -1,0 +1,21 @@
+{
+    "name": "brunoalod/basic-socket-server",
+    "description": "A basic TCP socket server.",
+    "keywords": ["tcp socket server", "socket", "php socket"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Alod",
+            "email": "brunoalod@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrunoAlod\\BasicSocketServer\\": "src/"
+        }
+    }
+}
